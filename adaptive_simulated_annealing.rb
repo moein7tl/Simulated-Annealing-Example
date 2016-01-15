@@ -106,6 +106,5 @@ class AdaptiveSimulatedAnnealing < SimulatedAnnealing
     puts "  Time  : #{Time.now.to_i - @start_time} secs"
     puts "  Trails  : #{trails}"
 
-    puts 'Adaptive solution distance: ' + @best.get_distance.to_s
   end
 end

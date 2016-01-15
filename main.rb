@@ -12,6 +12,6 @@ init_solution = Tour.new
 init_solution.generate_individual
 puts 'Initial solution distance: ' + init_solution.get_distance.to_s
 
-SimpleSimulatedAnnealing.new(init_solution).run
-HuangSimulatedAnnealing.new(init_solution,1000).run
+#SimpleSimulatedAnnealing.new(init_solution).run
+#HuangSimulatedAnnealing.new(init_solution,1000).run
 AdaptiveSimulatedAnnealing.new(init_solution).run
